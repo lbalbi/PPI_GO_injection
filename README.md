@@ -6,7 +6,9 @@ For access to the datasets see: https://bitbucket.org/laurabalbi/datasets-ppi-go
 where:
 
 dataset_SGOFULL_NR is a dataset with non-redundant annotations to the Full GO and split between train/validation/test by protein species;
+
 dataset_RGOFULL_NR is a dataset with non-redundant annotations to the Full GO and randomly split between train/validation/test;
+
 dataset_RGOFULL_TRAIN is a dataset with training proteins' non-redundant annotations to the Full GO and randomly split between train/validation/test;
 
 
