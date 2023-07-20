@@ -1,8 +1,8 @@
-This repository contains several datasets that make up graphs that include contextual knowledge on PPI data from a benchmark dataset. 
-These approaches attempt to solve the node classification task for the PPI dataset "ogbn-proteins" made avaliable by the OGB project.
+This repo has the code required to train and evaluate several neural models based on two approaches that attempt to inject avaliable domain knowledge on PPI data to solve a multi-label classification task for the PPI dataset "ogbn-proteins" made avaliable by the OGB project (see: https://github.com/snap-stanford/ogb/tree/master ) .
 
 
-Each folder contains files required to build datasets that have graphs constructed over either i) a hypergraph that combines the PPI data with the Gene Ontology through protein annotations; and ii) a GO graph that includes protein annotations to the GO tree.
+We propose the building of enriched torch-based datasets that make up graphs constructed over: approach i) a hypergraph that combines the PPI data with the Gene Ontology through protein annotations; and approach ii) a GO graph that includes protein annotations to the GO tree.
+For access to the datasets see: https://bitbucket.org/laurabalbi/datasets-ppi-go/src/master/
 
 Graph-based DL approaches over the graphs in i) will receive the GO as part of the training data, this way directly receiving both PPI and Protein Function information through graph structure exploration and training over a global, combined representation of this knowledge.
 
