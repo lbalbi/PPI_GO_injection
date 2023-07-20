@@ -9,6 +9,7 @@ dataset_SGOFULL_NR is a dataset with non-redundant annotations to the Full GO an
 dataset_RGOFULL_NR is a dataset with non-redundant annotations to the Full GO and randomly split between train/validation/test;
 dataset_RGOFULL_TRAIN is a dataset with training proteins' non-redundant annotations to the Full GO and randomly split between train/validation/test;
 
+
 Graph-based DL approaches over the graphs in i) will receive the GO as part of the training data, this way directly receiving both PPI and Protein Function information through graph structure exploration and training over a global, combined representation of this knowledge.
 
 DL approaches that see the inclusion of the graphs in ii) will receive both a PPI graph and a GO annotated graph, exploring both protein caracterization aspects in separate, but training over both representations.
