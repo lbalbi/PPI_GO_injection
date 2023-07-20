@@ -6,17 +6,17 @@ For access to the datasets see: https://bitbucket.org/laurabalbi/datasets-ppi-go
 
 "Hollistic-Graph" Datasets:
 
-dataset_SGOFULL_NR is a dataset with non-redundant annotations to the Full GO and split between train/validation/test by protein species;
+dataset_SGOFULL_NR is an enriched PPI dataset with non-redundant annotations to the Full GO and split between train/validation/test by protein species;
 
-dataset_RGOFULL_NR is a dataset with non-redundant annotations to the Full GO and randomly split between train/validation/test;
+dataset_RGOFULL_NR is an enriched PPI dataset with non-redundant annotations to the Full GO and randomly split between train/validation/test;
 
-dataset_SGOFULL_TRAIN is a dataset with training proteins' non-redundant annotations to the Full GO and split between train/validation/test by protein species;
+dataset_SGOFULL_TRAIN is an enriched PPI dataset with training proteins' non-redundant annotations to the Full GO and split between train/validation/test by protein species;
 
-dataset_RGOFULL_TRAIN is a dataset with training proteins' non-redundant annotations to the Full GO and randomly split between train/validation/test;
+dataset_RGOFULL_TRAIN is an enriched PPI dataset with training proteins' non-redundant annotations to the Full GO and randomly split between train/validation/test;
 
-dataset_SGOGEN is a dataset with annotations to the GO Slim Generic and split between train/validation/test by protein species;
+dataset_SGOGEN is an enriched PPI dataset with annotations to the GO Slim Generic and split between train/validation/test by protein species;
 
-dataset_RGOGEN is a dataset with annotations to the GO Slim Generic and randomly split between train/validation/test;
+dataset_RGOGEN is an enriched PPI dataset with annotations to the GO Slim Generic and randomly split between train/validation/test;
 
 
 Graph-based DL approaches over the graphs in i) will receive the GO as part of the training data, this way directly receiving both PPI and Protein Function information through graph structure exploration and training over a global, combined representation of this knowledge.
