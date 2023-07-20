@@ -10,9 +10,9 @@ dataset_SGOFULL_NR is a dataset with non-redundant annotations to the Full GO an
 
 dataset_RGOFULL_NR is a dataset with non-redundant annotations to the Full GO and randomly split between train/validation/test;
 
-dataset_RGOFULL_TRAIN is a dataset with training proteins' non-redundant annotations to the Full GO and randomly split between train/validation/test;
+dataset_SGOFULL_TRAIN is a dataset with training proteins' non-redundant annotations to the Full GO and split between train/validation/test by protein species;
 
-dataset_RGOFULL_TRAIN is a dataset with training proteins' non-redundant annotations to the Full GO and split between train/validation/test by protein species;
+dataset_RGOFULL_TRAIN is a dataset with training proteins' non-redundant annotations to the Full GO and randomly split between train/validation/test;
 
 dataset_SGOGEN is a dataset with annotations to the GO Slim Generic and split between train/validation/test by protein species;
 
