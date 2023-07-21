@@ -4,7 +4,7 @@ This repo has the code required to train and evaluate several neural models base
 We propose the building of enriched torch-based datasets that make up graphs constructed over: approach i) "Hollistic-Graph" - a hypergraph that combines the PPI data with the Gene Ontology through protein annotations; and approach ii) "Dual-Graph" - a GO graph that includes protein annotations to the GO tree.
 For access to the datasets see: https://bitbucket.org/laurabalbi/datasets-ppi-go/downloads/
 
-"Hollistic-Graph" Datasets:
+i) "Hollistic-Graph" Datasets:
 
 dataset_SGOFULL_NR is an enriched PPI dataset with non-redundant annotations to the Full GO and split between train/validation/test by protein species;
 
