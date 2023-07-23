@@ -4,7 +4,8 @@ import torch
 import torch.nn.functional as F
 from torch_scatter import scatter
 
-from ogb.nodeproppred import PygNodePropPredDataset, Evaluator
+from ogb.nodeproppred import PygNodePropPredDataset
+from evaluate import Evaluator
 
 from logger import Logger
 
