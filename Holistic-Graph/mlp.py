@@ -107,7 +107,6 @@ def main():
     data_orignodes = 132534
 
     if args.origgo:
-        num_node_go = 132534
         x = scatter(data_edge1, edge_ind1[0], dim=0,
                     dim_size=data_orignodes, reduce='mean').to('cpu')
     
