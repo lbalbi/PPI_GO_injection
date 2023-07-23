@@ -30,9 +30,7 @@ def main():
     data = dataset[0]
     del dataset
     print(data.edge_index)
-    #print(len(data.edge_index[0]))
-    #data_edge = data.edge_index[:,79122504:]
-    #print(len(data_edge[0]))
+
     
     model = Node2Vec(data.edge_index, args.embedding_dim, args.walk_length,
                      args.context_size, args.walks_per_node,
@@ -54,7 +52,7 @@ def main():
                 print(f'Epoch: {epoch:02d}, Step: {i+1:03d}/{len(loader)}, '
                       f'Loss: {loss:.4f}')
 
-            if (i + 1) % 100 == 0:  # Save model every 100 steps.
+            if (i + 1) % 100 == 0:
                 save_embedding(model)
         save_embedding(model)
 
