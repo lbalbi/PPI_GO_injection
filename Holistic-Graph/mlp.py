@@ -105,6 +105,11 @@ def main():
     edge_ind1 = data.edge_index[:,:79122504]
     edge_ind2 = data.edge_index[:,79122504:]
     data_orignodes = 132534
+
+    if args.origgo:
+        x = scatter(data_edge1, edge_ind1[0], dim=0,
+                    dim_size=data_orignodes, reduce='mean').to('cpu')
+    
     if args.gen:
         num_node_gen = 132776
         if args.col8:

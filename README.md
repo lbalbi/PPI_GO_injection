@@ -1,4 +1,3 @@
-
 This repo has the code required to train and evaluate several neural models based on two approaches that attempt to inject avaliable domain knowledge on PPI data to solve a multi-label classification task for the PPI dataset "ogbn-proteins" made avaliable by the OGB project (see: https://github.com/snap-stanford/ogb/tree/master ) .
 
 
@@ -23,6 +22,4 @@ dataset_RGOGEN is an enriched PPI dataset with annotations to the GO Slim Generi
 Graph-based DL approaches over the graphs in i) will receive the GO as part of the training data, this way directly receiving both PPI and Protein Function information through graph structure exploration and training over a global, combined representation of this knowledge.
 
 DL approaches that see the inclusion of the graphs in ii) will receive both a PPI graph and a GO annotated graph, exploring both protein caracterization aspects in separate, but training over both representations.
-
-
 
